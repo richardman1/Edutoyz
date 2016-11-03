@@ -1,0 +1,36 @@
+#ART1 p{
+	margin:2px;
+	font: 14px Arial;
+}
+
+#ART1 h1{
+	font: bold 20px Arial;
+	margin:2px;
+}
+
+#ART1 h2{
+	font: bold 14px Arial;
+	margin:2px;
+}
+
+#ART1 img{
+	margin: 8px;
+	border-radius: 5px;
+	height: 150px;
+	width: 250px;
+	float: right;
+}
+
+#ART1 li{
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#ART1 hr, #ART2 hr{
+	border: 0;
+	width: 100%;
+	height: 2px;
+	color: rgba(255,190,0, 1);
+	background-color: rgba(255,190,0, 1);
+}

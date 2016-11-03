@@ -1,0 +1,5 @@
+ftp edutoyz filezilla
+
+server: edutoyz.nl
+user: edutoyz
+password: 43wg%$v2  

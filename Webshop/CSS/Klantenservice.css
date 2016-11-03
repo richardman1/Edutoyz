@@ -1,0 +1,34 @@
+#klantenserviceblok {
+	display: block;
+    width: 600px;
+    height: auto;
+    background-color: #FFF;
+    border-style: none none none solid;
+    border-color: rgba(255,190,0, 1);
+    border-width: 2px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+#klantenserviceform {
+	margin: 10px;
+	font: bold 12px Arial;
+	text-align: left;
+	border-width: 2px;
+	border-style: solid;
+    border-color: rgba(255,190,0, 1);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#klantenserviceform input{
+	margin-top:10px;
+}
+
+#klantenserviceform textarea{
+	margin-top:10px;
+}

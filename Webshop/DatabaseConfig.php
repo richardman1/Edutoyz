@@ -1,0 +1,1 @@
+<?phpdefine("DB_HOST", "localhost");define("DB_NAME", "autismein");define("DB_USER", "autismein");define("DB_PASW", "Gregor");

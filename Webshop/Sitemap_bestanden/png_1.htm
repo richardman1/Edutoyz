@@ -1,0 +1,175 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="visio.css"/>
+<title>
+Sitemap
+</title>
+<script type="text/javascript" language="javascript">
+function UpdateTooltip(){};
+function OnShapeClick(){};
+</script>
+
+<script src="png_1.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript" language="javascript">
+	if( (parent.isSVG) || 
+		(parent.isVML && parent.vmlSupported) || 
+		(parent.isXAML && parent.isUpLevel)) 
+	{
+		location.replace(parent.g_FileList[parent.g_CurPageIndex].PriImage);
+	}
+</script>
+
+
+<script type="text/javascript" language="javascript">
+var pageID = 0;
+var isUpLevel = parent.isUpLevel;
+var OnShapeClick = null;
+if (!parent.isMac)
+{
+	OnShapeClick = parent.OnShapeClick;
+}
+
+var OnShapeKey = parent.OnShapeKey;
+var UpdateTooltip = parent.UpdateTooltip;
+var clickMenu = parent.clickMenu;
+var toggleMenuDiv = parent.toggleMenuDiv;
+var toggleMenuLink = parent.toggleMenuLink;
+var GoToPage = parent.GoToPage;
+
+
+if (parent.isUpLevel)
+{
+
+	if (parent.g_FirstPageToLoad != null && parent.g_FirstPageToLoad.length > 0)
+	{
+		if (parent.g_FileList[parent.g_CurPageIndex].PageID != pageID)
+		{
+			var fileEntry = parent.g_FileList[parent.g_CurPageIndex];
+			var fileToLoad = fileToLoad = fileEntry.PriImage;
+			if (fileEntry.SecImage.length > 0)
+			{
+				fileToLoad = fileEntry.SecImage;
+			}
+
+			location.replace(fileToLoad);
+		}
+
+		parent.g_FirstPageToLoad = null;
+	}
+
+
+	var viewMgr = new parent.CViewMgr();
+	parent.viewMgr = viewMgr;
+
+	viewMgr.SupportsDetails = true;
+	viewMgr.SupportsSearch = true;
+
+	viewMgr.put_Location = ViewMgrSetRasterLocation;
+	viewMgr.visBBoxLeft = 0.362451;
+	viewMgr.visBBoxRight = 22.865896;
+	viewMgr.visBBoxBottom = 0.362451;
+	viewMgr.visBBoxTop = 11.330462;
+	viewMgr.highlightDiv = null;
+}
+
+function load ()
+{
+	if(isUpLevel)
+	{
+		arrowdiv.innerHTML = '<img id="arrowgif" alt="Hier wordt de locatie van de geselecteerde shape weergegeven" src="arrow.png"/>';
+
+		var pageIndex = parent.PageIndexFromID (pageID);
+		parent.CurPageUpdate (pageIndex);
+	}
+}
+
+function unload()
+{
+	if(isUpLevel)
+	{
+		viewMgr = null;
+		parent.viewMgr = null;
+	}
+}
+
+window.onload = load;
+window.onunload = unload;
+document.onclick = clickMenu;
+
+</script>
+<style type="text/css"> 
+body {
+	background:url(foo) fixed;
+	padding: 10px;
+}
+div.banner {
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	left: 0;
+	_top: expression(eval(document.body.scrollTop));
+	_left: expression(eval(document.body.scrollLeft));
+	width: 100%;
+	_width: expression(eval(document.body.clientWidth));
+	margin: 0;
+	padding: 3px;
+	padding-left: 6px;
+	background:lime;
+	background-color: #FFFFC6;
+	font: 11px tahoma,arial,serif;
+	border-bottom: 2px ridge #FFFFC6;
+}
+</style>
+</head>
+
+<body class="pageView" bgcolor="#FFFFFF" style="margin: 0px">
+
+<script type="text/javascript" language="javascript">
+// Displays the banner prompt to install Silverlight
+if (parent.slSupported && !parent.slInstalled)
+{
+	var slBanner = document.createElement("div");
+	slBanner.className = "banner";
+	slBanner.innerHTML = 'Als u wilt profiteren van de volledige functionaliteit, bijvoorbeeld Pannen en zoomen, moet u <a href="http://www.microsoft.com/silverlight/resources/install.aspx" target="parent">klik hier</a> om de Silverlight-invoegtoepassing te installeren.';
+
+	document.body.appendChild(slBanner);
+	document.body.style.paddingTop = "2.5em";
+}
+</script>
+
+
+<div id="arrowdiv" style="position:absolute;top:0;left:0;visibility:hidden;z-index:5">
+</div>
+
+<div id="menu1" onclick="clickMenu()" class="hlMenu">
+</div>
+<DIV id="RasterDiv" style="margin:10px">
+
+<center>
+  <IMG id="ConvertedImage" SRC="png_1.png" ALT="Pagina-1" name=RasterImage BORDER="0" USEMAP="#visImageMap">
+</center>
+
+<MAP NAME="visImageMap">
+  <AREA shape="POLYGON" tabindex="1" ALT="Retour" origTitle="Retour" TITLE="Retour" HREF="http://www.edutoyz.nl/retour.php" target="_top" COORDS="747,480,793,480,797,479,801,478,804,476,807,473,809,470,811,466,811,462,811,458,809,454,807,451,804,448,801,446,797,444,793,444,747,444,743,444,739,446,736,448,733,451,731,454,729,458,729,462,729,466,731,470,733,473,736,476,739,478,743,479,747,480" onmouseover="UpdateTooltip(this,0,35,event)" onfocus="UpdateTooltip(this,0,35,event)" onclick="return OnShapeClick(0,35,event);" onkeyup="OnShapeKey(0,35,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Winkelwagen" origTitle="Winkelwagen" TITLE="Winkelwagen" HREF="http://www.edutoyz.nl/cart.php" target="_top" COORDS="1014,271,1011,269,1008,266,1004,265,1000,265,946,265,942,265,938,266,935,269,932,271,930,271,930,274,929,278,928,281,928,284,929,288,930,291,930,292,930,292,933,295,935,297,939,299,942,300,946,301,1000,301,1004,300,1007,299,1011,297,1013,295,1016,292,1016,292,1016,291,1017,288,1018,284,1018,281,1017,278,1016,274,1016,271,1014,271" onmouseover="UpdateTooltip(this,0,24,event)" onfocus="UpdateTooltip(this,0,24,event)" onclick="return OnShapeClick(0,24,event);" onkeyup="OnShapeKey(0,24,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Registreer" origTitle="Registreer" TITLE="Registreer" HREF="http://www.edutoyz.nl/registreren.php" target="_top" COORDS="856,480,903,480,907,479,910,478,914,476,917,473,919,470,920,466,920,462,920,458,919,454,917,451,914,448,910,446,907,444,903,444,856,444,852,444,848,446,845,448,842,451,840,454,839,458,838,462,839,466,840,470,842,473,845,476,848,478,852,479,856,480" onmouseover="UpdateTooltip(this,0,23,event)" onfocus="UpdateTooltip(this,0,23,event)" onclick="return OnShapeClick(0,23,event);" onkeyup="OnShapeKey(0,23,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Feestdagen" origTitle="Feestdagen" TITLE="Feestdagen" HREF="http://www.edutoyz.nl/feestdagen.php" target="_top" COORDS="543,480,607,480,610,479,614,478,618,476,621,473,623,470,624,466,624,462,624,458,623,454,621,451,618,448,614,446,610,444,607,444,543,444,539,444,535,446,532,448,529,451,527,454,525,458,525,462,525,466,527,470,529,473,532,476,535,478,539,479,543,480" onmouseover="UpdateTooltip(this,0,14,event)" onfocus="UpdateTooltip(this,0,14,event)" onclick="return OnShapeClick(0,14,event);" onkeyup="OnShapeKey(0,14,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Kortingen" origTitle="Kortingen" TITLE="Kortingen" HREF="http://www.edutoyz.nl/kortingen.php" target="_top" COORDS="456,480,496,480,500,479,504,478,507,476,510,473,512,470,514,466,514,462,514,458,512,454,510,451,507,448,504,446,500,444,496,444,456,444,452,444,448,446,445,448,442,451,440,454,439,458,438,462,439,466,440,470,442,473,445,476,448,478,452,479,456,480" onmouseover="UpdateTooltip(this,0,13,event)" onfocus="UpdateTooltip(this,0,13,event)" onclick="return OnShapeClick(0,13,event);" onkeyup="OnShapeKey(0,13,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Tieners" origTitle="Tieners" TITLE="Tieners" HREF="http://www.edutoyz.nl/webwinkel.php?categorie=5" target="_top" COORDS="342,480,382,480,386,479,390,478,393,476,396,473,398,470,400,466,400,462,400,458,398,454,396,451,393,448,390,446,386,444,382,444,342,444,338,444,334,446,331,448,328,451,326,454,324,458,324,462,324,466,326,470,328,473,331,476,334,478,338,479,342,480" onmouseover="UpdateTooltip(this,0,7,event)" onfocus="UpdateTooltip(this,0,7,event)" onclick="return OnShapeClick(0,7,event);" onkeyup="OnShapeKey(0,7,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Kleuter" origTitle="Kleuter" TITLE="Kleuter" HREF="http://www.edutoyz.nl/webwinkel.php?categorie=3" target="_top" COORDS="181,480,221,480,225,479,229,478,232,476,235,473,237,470,238,466,239,462,238,458,237,454,235,451,232,448,229,446,225,444,221,444,181,444,177,444,173,446,169,448,167,451,164,454,163,458,163,462,163,466,164,470,167,473,169,476,173,478,177,479,181,480" onmouseover="UpdateTooltip(this,0,6,event)" onfocus="UpdateTooltip(this,0,6,event)" onclick="return OnShapeClick(0,6,event);" onkeyup="OnShapeKey(0,6,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Kind" origTitle="Kind" TITLE="Kind" HREF="http://www.edutoyz.nl/webwinkel.php?categorie=4" target="_top" COORDS="261,480,301,480,305,479,309,478,313,476,316,473,318,470,319,466,319,462,319,458,318,454,316,451,313,448,309,446,305,444,301,444,261,444,257,444,253,446,250,448,247,451,245,454,244,458,243,462,244,466,245,470,247,473,250,476,253,478,257,479,261,480" onmouseover="UpdateTooltip(this,0,5,event)" onfocus="UpdateTooltip(this,0,5,event)" onclick="return OnShapeClick(0,5,event);" onkeyup="OnShapeKey(0,5,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Peuter" origTitle="Peuter" TITLE="Peuter" HREF="http://www.edutoyz.nl/webwinkel.php?categorie=2" target="_top" COORDS="100,480,140,480,144,479,148,478,151,476,154,473,156,470,158,466,158,462,158,458,156,454,154,451,151,448,148,446,144,444,140,444,100,444,96,444,92,446,89,448,86,451,84,454,82,458,82,462,82,466,84,470,86,473,89,476,92,478,96,479,100,480" onmouseover="UpdateTooltip(this,0,4,event)" onfocus="UpdateTooltip(this,0,4,event)" onclick="return OnShapeClick(0,4,event);" onkeyup="OnShapeKey(0,4,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Baby" origTitle="Baby" TITLE="Baby" HREF="http://www.edutoyz.nl/webwinkel.php?categorie=1" target="_top" COORDS="19,480,60,480,64,479,67,478,71,476,74,473,76,470,77,466,78,462,77,458,76,454,74,451,71,448,67,446,64,444,60,444,19,444,15,444,12,446,8,448,5,451,3,454,2,458,1,462,2,466,3,470,5,473,8,476,12,478,15,479,19,480" onmouseover="UpdateTooltip(this,0,3,event)" onfocus="UpdateTooltip(this,0,3,event)" onclick="return OnShapeClick(0,3,event);" onkeyup="OnShapeKey(0,3,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Home" origTitle="Home" TITLE="Home" HREF="http://www.edutoyz.nl/index.php" target="_top" COORDS="568,77,647,77,652,76,656,75,661,73,665,70,668,66,670,62,672,57,673,53,673,48,672,43,670,38,668,34,665,31,661,28,656,26,652,24,647,24,568,24,563,24,558,26,554,28,550,31,546,34,544,38,542,43,541,48,541,53,542,57,544,62,546,66,550,70,554,73,558,75,563,76,568,77" onmouseover="UpdateTooltip(this,0,2,event)" onfocus="UpdateTooltip(this,0,2,event)" onclick="return OnShapeClick(0,2,event);" onkeyup="OnShapeKey(0,2,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Log in" origTitle="Log in" TITLE="Log in" HREF="http://www.edutoyz.nl/login.php" target="_top" COORDS="862,301,897,301,901,300,905,299,908,297,911,294,913,290,914,287,915,283,914,279,913,275,911,272,908,269,905,267,901,265,897,265,862,265,858,265,854,267,851,269,848,272,846,275,844,279,844,283,844,287,846,290,848,294,851,297,854,299,858,300,862,301" onmouseover="UpdateTooltip(this,0,12,event)" onfocus="UpdateTooltip(this,0,12,event)" onclick="return OnShapeClick(0,12,event);" onkeyup="OnShapeKey(0,12,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Klantenservice" origTitle="Klantenservice" TITLE="Klantenservice" HREF="http://www.edutoyz.nl/klantenservice.php" target="_top" COORDS="826,271,824,269,820,266,817,265,813,265,750,265,746,265,742,266,739,269,736,271,735,271,735,273,733,276,732,280,732,284,732,288,734,291,736,294,739,297,742,299,746,300,750,301,813,301,816,300,820,299,823,297,826,294,828,291,830,288,831,284,830,280,829,276,827,273,827,271,826,271" onmouseover="UpdateTooltip(this,0,11,event)" onfocus="UpdateTooltip(this,0,11,event)" onclick="return OnShapeClick(0,11,event);" onkeyup="OnShapeKey(0,11,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Over ons" origTitle="Over ons" TITLE="Over ons" HREF="http://www.edutoyz.nl/overons.php" target="_top" COORDS="649,301,694,301,698,300,702,299,705,297,708,294,710,290,711,287,712,283,711,279,710,275,708,272,705,269,702,267,698,265,694,265,649,265,645,265,641,267,638,269,635,272,633,275,632,279,631,283,632,287,633,290,635,294,638,297,641,299,645,300,649,301" onmouseover="UpdateTooltip(this,0,10,event)" onfocus="UpdateTooltip(this,0,10,event)" onclick="return OnShapeClick(0,10,event);" onkeyup="OnShapeKey(0,10,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Aanbiedingen" origTitle="Aanbiedingen" TITLE="Aanbiedingen" HREF="http://www.edutoyz.nl/aanbiedingen.php" target="_top" COORDS="543,301,605,301,609,300,613,299,616,297,619,294,621,290,622,287,623,283,622,279,621,275,619,272,616,269,613,267,609,265,605,265,543,265,539,265,535,267,532,269,529,272,527,275,525,279,525,283,525,287,527,290,529,294,532,297,535,299,539,300,543,301" onmouseover="UpdateTooltip(this,0,9,event)" onfocus="UpdateTooltip(this,0,9,event)" onclick="return OnShapeClick(0,9,event);" onkeyup="OnShapeKey(0,9,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Webwinkel" origTitle="Webwinkel" TITLE="Webwinkel" HREF="http://www.edutoyz.nl/webwinkel.php" target="_top" COORDS="235,271,232,269,229,266,225,265,221,265,181,265,177,265,173,266,170,269,167,271,165,271,165,274,164,277,163,281,163,285,164,288,165,292,165,292,165,292,167,295,170,297,173,299,177,300,181,301,221,301,225,300,228,299,231,297,234,295,236,292,236,292,236,292,238,288,239,285,239,281,238,277,236,274,236,271,235,271" onmouseover="UpdateTooltip(this,0,8,event)" onfocus="UpdateTooltip(this,0,8,event)" onclick="return OnShapeClick(0,8,event);" onkeyup="OnShapeKey(0,8,event);">
+</MAP>
+
+
+</DIV>
+</body>
+</html>

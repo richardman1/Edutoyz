@@ -1,0 +1,110 @@
+#loginblok {
+    display: block;
+    width:300px;
+    height: auto;
+    background-color: #FFF;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+#loginblok form{
+    margin-left: 25px;
+    font: bold 14px Arial;
+}
+
+#loginblok input {margin-bottom: 15px;}
+
+#knoppen {
+    width: auto;
+    height: 25px;
+    cursor: pointer;
+    left: 0px;
+    border-radius: 20px;
+	padding:2px;
+    -webkit-box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .45), 0px 1px 1px 0px rgba(0,0,0, .3);
+    -moz-box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .45), 0px 1px 1px 0px rgba(0,0,0, .3);
+    box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .45), 0px 1px 1px 0px rgba(0,0,0, .3);
+    background: #FFBF00;
+    background: -moz-linear-gradient(top,  #FFBF00 0%, #FFC71F 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFBF00), color-stop(100%,#FFC71F));
+    background: -webkit-linear-gradient(top,  #FFBF00 0%,#FFC71F 100%);
+    background: -o-linear-gradient(top,  #FFBF00 0%,#FFC71F 100%);
+    background: -ms-linear-gradient(top,  #FFBF00 0%,#FFC71F 100%);
+    background: linear-gradient(top,  #FFBF00 0%,#FFC71F 100%);
+	transition:background 2.0s;
+}
+
+#knoppen:hover{
+    background: #FFBF00;
+}
+
+#registratieblok {
+    display: block;
+    width: 300px;
+    height: auto;
+    background-color: #FFF;
+    border-style: none none none solid;
+    border-color: rgba(255,190,0, 1);
+    border-width: 2px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+
+#registratieformblok {
+    display: block;
+    width: 600px;
+    height: auto;
+    background-color: #FFF;
+    border-style: none none none solid;
+    border-color: rgba(255,190,0, 1);
+    border-width: 2px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+#registratieform{
+    margin: 10px;
+    font: bold 12px Arial;
+    text-align: left;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(255,190,0, 1);
+    border-radius: 10px;
+}
+
+#accountfield {
+    margin: 10px;
+    font: bold 12px Arial;
+    text-align: left;
+    border-width: 2px;
+    border-style: none none none solid;
+    border-color: rgba(255,190,0, 1);
+    border-radius: 5px;
+}
+#accounttabel td,th{
+    margin: 10px;
+    font: bold 12px Arial;
+    text-align: left;
+	border-width: 2px;
+    border-style: solid;
+    border-color: rgba(255,190,0, 1);
+    border-radius: 5px;
+	width:50%;
+}
+
+th,td {
+    padding: 8px;
+    text-align: left;
+}

@@ -1,0 +1,13 @@
+th, td
+{
+    text-align:  left;
+}
+.totalrow
+{
+    padding: 0 1px;
+    border-top: solid 2px rgb(255,190,0);
+}
+table
+{
+    border-collapse: collapse;
+}

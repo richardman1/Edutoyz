@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Pagina-1" NameU="Page-1">
+			<Layer IX="0">
+				<Name>Stroomdiagram</Name>
+				<NameUniv>Flowchart</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Layer IX="1">
+				<Name>Verbindingslijn</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="1" UniqueID="{261A22C2-F9F4-4B2F-B30B-2CC8A370734E}" Name="Sheet.1" NameU="Sheet.1">
+					<XForm>
+						<PinX Unit="MM">11.614173228346454</PinX>
+						<PinY Unit="MM">5.846456692913382</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{15EB4035-C365-4165-AEED-9310CA47EF6C}" Name="Begin/einde" NameU="Start/End" Master="9">
+					<Text>Webwinkel</Text>
+					<XForm>
+						<PinX Unit="MM">4.773622047244094</PinX>
+						<PinY Unit="MM">5.118110236220471</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.edutoyz.nl/webwinkel.php</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.edutoyz.nl/webwinkel.php</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Kosten</Label>
+					</Prop>
+					<Prop ID="2" Name="ProcessNumber" NameU="ProcessNumber">
+						<Value></Value>
+						<Label>Procesnummer</Label>
+					</Prop>
+					<Prop ID="3" Name="Owner" NameU="Owner">
+						<Value></Value>
+						<Label>Eigenaar</Label>
+					</Prop>
+					<Prop ID="4" Name="Function" NameU="Function">
+						<Value></Value>
+						<Label>Functie</Label>
+					</Prop>
+					<Prop ID="5" Name="StartDate" NameU="StartDate">
+						<Value></Value>
+						<Label>Begindatum</Label>
+					</Prop>
+					<Prop ID="6" Name="EndDate" NameU="EndDate">
+						<Value></Value>
+						<Label>Einddatum</Label>
+					</Prop>
+					<Prop ID="7" Name="Status" NameU="Status">
+						<Value></Value>
+						<Label>Status</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="9" UniqueID="{D7629AE3-658A-407D-B116-08E5E77D18D1}" Name="Begin/einde.9" NameU="Start/End.9" Master="9">
+					<Text>Aanbiedingen</Text>
+					<XForm>
+						<PinX Unit="MM">12.974901574803143</PinX>
+						<PinY Unit="MM">5.118110236220471</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.edutoyz.nl/aanbiedingen.php</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.edutoyz.nl/aanbiedingen.php</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Kosten</Label>
+					</Prop>
+					<Prop ID="2" Name="ProcessNumber" NameU="ProcessNumber">
+						<Value></Value>
+						<Label>Procesnummer</Label>
+					</Prop>
+					<Prop ID="3" Name="Owner" NameU="Owner">
+						<Value></Value>
+						<Label>Eigenaar</Label>
+					</Prop>
+					<Prop ID="4" Name="Function" NameU="Function">
+						<Value></Value>
+						<Label>Functie</Label>
+					</Prop>
+					<Prop ID="5" Name="StartDate" NameU="StartDate">
+						<Value></Value>
+						<Label>Begindatum</Label>
+					</Prop>
+					<Prop ID="6" Name="EndDate" NameU="EndDate">
+						<Value></Value>
+						<Label>Einddatum</Label>
+					</Prop>
+					<Prop ID="7" Name="Status" NameU="Status">
+						<Value></Value>
+						<Label>Status</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="10" UniqueID="{DC734534-3401-4E5A-8D65-C746413C3E90}" Name="Begin/einde.10" NameU="Start/End.10" Master="9">
+					<Text>Over ons</Text>
+					<XForm>
+						<PinX Unit="MM">15.118110236220465</PinX>
+						<PinY Unit="MM">5.118110236220471</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.edutoyz.nl/overons.php</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.edutoyz.nl/overons.php</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Kosten</Label>
+					</Prop>
+					<Prop ID="2" Name="ProcessNumber" NameU="ProcessNumber">
+						<Value></Value>
+						<Label>Procesnummer</Label>
+					</Prop>
+					<Prop ID="3" Name="Owner" NameU="Owner">
+						<Value></Value>
+						<Label>Eigenaar</Label>
+					</Prop>
+					<Prop ID="4" Name="Function" NameU="Function">
+						<Value></Value>
+						<Label>Functie</Label>
+					</Prop>
+					<Prop ID="5" Name="StartDate" NameU="StartDate">
+						<Value></Value>
+						<Label>Begindatum</Label>
+					</Prop>
+					<Prop ID="6" Name="EndDate" NameU="EndDate">
+						<Value></Value>
+						<Label>Einddatum</Label>
+					</Prop>
+					<Prop ID="7" Name="Status" NameU="Status">
+						<Value></Value>
+						<Label>Status</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="11" UniqueID="{AFD0E6A1-3DE9-4E91-9FED-1AED2BF5C3B6}" Name="Begin/einde.11" NameU="Start/End.11" Master="9">
+					<Text>Klantenservice</Text>
+					<XForm>
+						<PinX Unit="MM">17.529527559055119</PinX>
+						<PinY Unit="MM">5.118110236220471</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.edutoyz.nl/klantenservice.php</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.edutoyz.nl/klantenservice.php</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Kosten</Label>
+					</Prop>
+					<Prop ID="2" Name="ProcessNumber" NameU="ProcessNumber">
+						<Value></Value>
+						<Label>Procesnummer</Label>
+					</Prop>
+					<Prop ID="3" Name="Owner" NameU="Owner">
+						<Value></Value>
+						<Label>Eigenaar</Label>
+					</Prop>
+					<Prop ID="4" Name="Function" NameU="Function">
+						<Value></Value>
+						<Label>Functie</Label>
+					</Prop>
+					<Prop ID="5" Name="StartDate" NameU="StartDate">
+						<Value></Value>
+						<Label>Begindatum</Label>
+					</Prop>
+					<Prop ID="6" Name="EndDate" NameU="EndDate">
+						<Value></Value>
+						<Label>Einddatum</Label>
+					</Prop>
+					<Prop ID="7" Name="Status" NameU="Status">
+						<Value></Value>
+						<Label>Status</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="12" UniqueID="{493358DA-B5A5-4503-9438-5982AEA841E9}" Name="Begin/einde.12" NameU="Start/End.12" Master="9">
+					<Text>Log in</Text>
+					<XForm>
+						<PinX Unit="MM">19.685039370078737</PinX>
+						<PinY Unit="MM">5.118110236220471</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.edutoyz.nl/login.php</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.edutoyz.nl/login.php</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Kosten</Label>
+					</Prop>
+					<Prop ID="2" Name="ProcessNumber" NameU="ProcessNumber">
+						<Value></Value>
+						<Label>Procesnummer</Label>
+					</Prop>
+					<Prop ID="3" Name="Owner" NameU="Owner">
+						<Value></Value>
+						<Label>Eigenaar</Label>
+					</Prop>
+					<Prop ID="4" Name="Function" NameU="Function">
+						<Value></Value>
+						<Label>Functie</Label>
+					</Prop>
+					<Prop ID="5" Name="StartDate" NameU="StartDate">
+						<Value></Value>
+						<Label>Begindatum</Label>
+					</Prop>
+					<Prop ID="6" Name="EndDate" NameU="EndDate">
+						<Value></Value>
+						<Label>Einddatum</Label>
+					</Prop>
+					<Prop ID="7" Name="Status" NameU="Status">
+						<Value></Value>
+						<Label>Status</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="2" UniqueID="{C05CBA6F-2F60-4FA4-B9A2-11FE030825E4}" Name="Begin/einde.2" NameU="Start/End.2" Master="9">
+					<Text>Home</Text>
+					<XForm>
+						<PinX Unit="MM">13.705708661417322</PinX>
+						<PinY Unit="MM">10.226377952755904</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.edutoyz.nl/index.php</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.edutoyz.nl/index.php</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Kosten</Label>
+					</Prop>
+					<Prop ID="2" Name="ProcessNumber" NameU="ProcessNumber">
+						<Value></Value>
+						<Label>Procesnummer</Label>
+					</Prop>
+					<Prop ID="3" Name="Owner" NameU="Owner">
+						<Value></Value>
+						<Label>Eigenaar</Label>
+					</Prop>
+					<Prop ID="4" Name="Function" NameU="Function">
+						<Value></Value>
+						<Label>Functie</Label>
+					</Prop>
+					<Prop ID="5" Name="StartDate" NameU="StartDate">
+						<Value></Value>
+						<Label>Begindatum</Label>
+					</Prop>
+					<Prop ID="6" Name="EndDate" NameU="EndDate">
+						<Value></Value>
+						<Label>Einddatum</Label>
+					</Prop>
+					<Prop ID="7" Name="Status" NameU="Status">
+						<Value></Value>
+						<Label>Status</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="3" UniqueID="{5E1F8382-9687-44F9-954E-4748CBDC9278}" Name="Begin/einde.3" NameU="Start/End.3" Master="9">
+					<Text>Baby</Text>
+					<XForm>
+						<PinX Unit="MM">1.230314960629921</PinX>
+						<PinY Unit="MM">1.181102362204724</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.edutoyz.nl/webwinkel.php</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo>categorie=1</HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.edutoyz.nl/webwinkel.php?categorie=1</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Kosten</Label>
+					</Prop>
+					<Prop ID="2" Name="ProcessNumber" NameU="ProcessNumber">
+						<Value></Value>
+						<Label>Procesnummer</Label>
+					</Prop>
+					<Prop ID="3" Name="Owner" NameU="Owner">
+						<Value></Value>
+						<Label>Eigenaar</Label>
+					</Prop>
+					<Prop ID="4" Name="Function" NameU="Function">
+						<Value></Value>
+						<Label>Functie</Label>
+					</Prop>
+					<Prop ID="5" Name="StartDate" NameU="StartDate">
+						<Value></Value>
+						<Label>Begindatum</Label>
+					</Prop>
+					<Prop ID="6" Name="EndDate" NameU="EndDate">
+						<Value></Value>
+						<Label>Einddatum</Label>
+					</Prop>
+					<Prop ID="7" Name="Status" NameU="Status">
+						<Value></Value>
+						<Label>Status</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="4" UniqueID="{E2D442D8-15DE-4B03-8315-C40CC14AEF72}" Name="Begin/einde.4" NameU="Start/End.4" Master="9">
+					<Text>Peuter</Text>
+					<XForm>
+						<PinX Unit="MM">3.001968503937007</PinX>
+						<PinY Unit="MM">1.181102362204722</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.edutoyz.nl/webwinkel.php</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo>categorie=2</HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.edutoyz.nl/webwinkel.php?categorie=2</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Kosten</Label>
+					</Prop>
+					<Prop ID="2" Name="ProcessNumber" NameU="ProcessNumber">
+						<Value></Value>
+						<Label>Procesnummer</Label>
+					</Prop>
+					<Prop ID="3" Name="Owner" NameU="Owner">
+						<Value></Value>
+						<Label>Eigenaar</Label>
+					</Prop>
+					<Prop ID="4" Name="Function" NameU="Function">
+						<Value></Value>
+						<Label>Functie</Label>
+					</Prop>
+					<Prop ID="5" Name="StartDate" NameU="StartDate">
+						<Value></Value>
+						<Label>Begindatum</Label>
+					</Prop>
+					<Prop ID="6" Name="EndDate" NameU="EndDate">
+						<Value></Value>
+						<Label>Einddatum</Label>
+					</Prop>
+					<Prop ID="7" Name="Status" NameU="Status">
+						<Value></Value>
+						<Label>Status</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="5" UniqueID="{A0174DD7-2BCA-4D38-87F8-FC74F092A043}" Name="Begin/einde.5" NameU="Start/End.5" Master="9">
+					<Text>Kind</Text>
+					<XForm>
+						<PinX Unit="MM">6.545275590551182</PinX>
+						<PinY Unit="MM">1.181102362204722</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.edutoyz.nl/webwinkel.php</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo>categorie=4</HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.edutoyz.nl/webwinkel.php?categorie=4</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Kosten</Label>
+					</Prop>
+					<Prop ID="2" Name="ProcessNumber" NameU="ProcessNumber">
+						<Value></Value>
+						<Label>Procesnummer</Label>
+					</Prop>
+					<Prop ID="3" Name="Owner" NameU="Owner">
+						<Value></Value>
+						<Label>Eigenaar</Label>
+					</Prop>
+					<Prop ID="4" Name="Function" NameU="Function">
+						<Value></Value>
+						<Label>Functie</Label>
+					</Prop>
+					<Prop ID="5" Name="StartDate" NameU="StartDate">
+						<Value></Value>
+						<Label>Begindatum</Label>
+					</Prop>
+					<Prop ID="6" Name="EndDate" NameU="EndDate">
+						<Value></Value>
+						<Label>Einddatum</Label>
+					</Prop>
+					<Prop ID="7" Name="Status" NameU="Status">
+						<Value></Value>
+						<Label>Status</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="6" UniqueID="{AF2D32FA-0936-4804-B25B-2250BF9AEF3F}" Name="Begin/einde.6" NameU="Start/End.6" Master="9">
+					<Text>Kleuter</Text>
+					<XForm>
+						<PinX Unit="MM">4.773622047244094</PinX>
+						<PinY Unit="MM">1.181102362204724</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.edutoyz.nl/webwinkel.php</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo>categorie=3</HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.edutoyz.nl/webwinkel.php?categorie=3</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Kosten</Label>
+					</Prop>
+					<Prop ID="2" Name="ProcessNumber" NameU="ProcessNumber">
+						<Value></Value>
+						<Label>Procesnummer</Label>
+					</Prop>
+					<Prop ID="3" Name="Owner" NameU="Owner">
+						<Value></Value>
+						<Label>Eigenaar</Label>
+					</Prop>
+					<Prop ID="4" Name="Function" NameU="Function">
+						<Value></Value>
+						<Label>Functie</Label>
+					</Prop>
+					<Prop ID="5" Name="StartDate" NameU="StartDate">
+						<Value></Value>
+						<Label>Begindatum</Label>
+					</Prop>
+					<Prop ID="6" Name="EndDate" NameU="EndDate">
+						<Value></Value>
+						<Label>Einddatum</Label>
+					</Prop>
+					<Prop ID="7" Name="Status" NameU="Status">
+						<Value></Value>
+						<Label>Status</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="7" UniqueID="{992ADF66-CDAB-423E-9FAC-F25740B066AC}" Name="Begin/einde.7" NameU="Start/End.7" Master="9">
+					<Text>Tieners</Text>
+					<XForm>
+						<PinX Unit="MM">8.316929133858269</PinX>
+						<PinY Unit="MM">1.181102362204722</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.edutoyz.nl/webwinkel.php</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo>categorie=5</HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.edutoyz.nl/webwinkel.php?categorie=5</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Kosten</Label>
+					</Prop>
+					<Prop ID="2" Name="ProcessNumber" NameU="ProcessNumber">
+						<Value></Value>
+						<Label>Procesnummer</Label>
+					</Prop>
+					<Prop ID="3" Name="Owner" NameU="Owner">
+						<Value></Value>
+						<Label>Eigenaar</Label>
+					</Prop>
+					<Prop ID="4" Name="Function" NameU="Function">
+						<Value></Value>
+						<Label>Functie</Label>
+					</Prop>
+					<Prop ID="5" Name="StartDate" NameU="StartDate">
+						<Value></Value>
+						<Label>Begindatum</Label>
+					</Prop>
+					<Prop ID="6" Name="EndDate" NameU="EndDate">
+						<Value></Value>
+						<Label>Einddatum</Label>
+					</Prop>
+					<Prop ID="7" Name="Status" NameU="Status">
+						<Value></Value>
+						<Label>Status</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="13" UniqueID="{BC98B484-8F6C-4372-B6E6-FF8A31A045C5}" Name="Begin/einde.13" NameU="Start/End.13" Master="9">
+					<Text>Kortingen</Text>
+					<XForm>
+						<PinX Unit="MM">10.826771653543306</PinX>
+						<PinY Unit="MM">1.181102362204722</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.edutoyz.nl/kortingen.php</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.edutoyz.nl/kortingen.php</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Kosten</Label>
+					</Prop>
+					<Prop ID="2" Name="ProcessNumber" NameU="ProcessNumber">
+						<Value></Value>
+						<Label>Procesnummer</Label>
+					</Prop>
+					<Prop ID="3" Name="Owner" NameU="Owner">
+						<Value></Value>
+						<Label>Eigenaar</Label>
+					</Prop>
+					<Prop ID="4" Name="Function" NameU="Function">
+						<Value></Value>
+						<Label>Functie</Label>
+					</Prop>
+					<Prop ID="5" Name="StartDate" NameU="StartDate">
+						<Value></Value>
+						<Label>Begindatum</Label>
+					</Prop>
+					<Prop ID="6" Name="EndDate" NameU="EndDate">
+						<Value></Value>
+						<Label>Einddatum</Label>
+					</Prop>
+					<Prop ID="7" Name="Status" NameU="Status">
+						<Value></Value>
+						<Label>Status</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="14" UniqueID="{52BDE11F-AC60-4F1C-93CD-FF8E7F501114}" Name="Begin/einde.14" NameU="Start/End.14" Master="9">
+					<Text>Feestdagen</Text>
+					<XForm>
+						<PinX Unit="MM">12.992125984251963</PinX>
+						<PinY Unit="MM">1.181102362204722</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.edutoyz.nl/feestdagen.php</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.edutoyz.nl/feestdagen.php</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Kosten</Label>
+					</Prop>
+					<Prop ID="2" Name="ProcessNumber" NameU="ProcessNumber">
+						<Value></Value>
+						<Label>Procesnummer</Label>
+					</Prop>
+					<Prop ID="3" Name="Owner" NameU="Owner">
+						<Value></Value>
+						<Label>Eigenaar</Label>
+					</Prop>
+					<Prop ID="4" Name="Function" NameU="Function">
+						<Value></Value>
+						<Label>Functie</Label>
+					</Prop>
+					<Prop ID="5" Name="StartDate" NameU="StartDate">
+						<Value></Value>
+						<Label>Begindatum</Label>
+					</Prop>
+					<Prop ID="6" Name="EndDate" NameU="EndDate">
+						<Value></Value>
+						<Label>Einddatum</Label>
+					</Prop>
+					<Prop ID="7" Name="Status" NameU="Status">
+						<Value></Value>
+						<Label>Status</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="23" UniqueID="{FAC73BA8-E4A2-4265-A701-47DBDE1885FA}" Name="Begin/einde.23" NameU="Start/End.23" Master="9">
+					<Text>Registreer</Text>
+					<XForm>
+						<PinX Unit="MM">19.685039370078737</PinX>
+						<PinY Unit="MM">1.181102362204726</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.edutoyz.nl/registreren.php</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.edutoyz.nl/registreren.php</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Kosten</Label>
+					</Prop>
+					<Prop ID="2" Name="ProcessNumber" NameU="ProcessNumber">
+						<Value></Value>
+						<Label>Procesnummer</Label>
+					</Prop>
+					<Prop ID="3" Name="Owner" NameU="Owner">
+						<Value></Value>
+						<Label>Eigenaar</Label>
+					</Prop>
+					<Prop ID="4" Name="Function" NameU="Function">
+						<Value></Value>
+						<Label>Functie</Label>
+					</Prop>
+					<Prop ID="5" Name="StartDate" NameU="StartDate">
+						<Value></Value>
+						<Label>Begindatum</Label>
+					</Prop>
+					<Prop ID="6" Name="EndDate" NameU="EndDate">
+						<Value></Value>
+						<Label>Einddatum</Label>
+					</Prop>
+					<Prop ID="7" Name="Status" NameU="Status">
+						<Value></Value>
+						<Label>Status</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="24" UniqueID="{CC1C003B-02F5-4F27-A37D-56AF2A9F48CC}" Name="Begin/einde.24" NameU="Start/End.24" Master="9">
+					<Text>Winkelwagen</Text>
+					<XForm>
+						<PinX Unit="MM">21.744586614173226</PinX>
+						<PinY Unit="MM">5.118110236220471</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.edutoyz.nl/cart.php</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.edutoyz.nl/cart.php</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Kosten</Label>
+					</Prop>
+					<Prop ID="2" Name="ProcessNumber" NameU="ProcessNumber">
+						<Value></Value>
+						<Label>Procesnummer</Label>
+					</Prop>
+					<Prop ID="3" Name="Owner" NameU="Owner">
+						<Value></Value>
+						<Label>Eigenaar</Label>
+					</Prop>
+					<Prop ID="4" Name="Function" NameU="Function">
+						<Value></Value>
+						<Label>Functie</Label>
+					</Prop>
+					<Prop ID="5" Name="StartDate" NameU="StartDate">
+						<Value></Value>
+						<Label>Begindatum</Label>
+					</Prop>
+					<Prop ID="6" Name="EndDate" NameU="EndDate">
+						<Value></Value>
+						<Label>Einddatum</Label>
+					</Prop>
+					<Prop ID="7" Name="Status" NameU="Status">
+						<Value></Value>
+						<Label>Status</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="28" UniqueID="{3BF504E0-0822-498E-A773-CA63EBCB6041}" Name="Dynamische verbindingslijn.28" NameU="Dynamic connector.28" Master="10">
+					<XForm>
+						<PinX Unit="MM">14.411909448818893</PinX>
+						<PinY Unit="MM">7.578740157480314</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="29" UniqueID="{49501262-8A65-4C5A-86DB-B60191FDB9B4}" Name="Dynamische verbindingslijn.29" NameU="Dynamic connector.29" Master="10">
+					<XForm>
+						<PinX Unit="MM">15.617618110236220</PinX>
+						<PinY Unit="MM">7.578740157480314</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="16" UniqueID="{16B80BCE-6074-473A-9AFF-265A90579B09}" Name="Dynamische verbindingslijn" NameU="Dynamic connector" Master="10">
+					<XForm>
+						<PinX Unit="MM">13.340305118110233</PinX>
+						<PinY Unit="MM">7.578740157480314</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="17" UniqueID="{2905A7BE-E38A-4EC9-90AE-90D812C79D39}" Name="Dynamische verbindingslijn.17" NameU="Dynamic connector.17" Master="10">
+					<XForm>
+						<PinX Unit="MM">9.239665354330708</PinX>
+						<PinY Unit="MM">7.578740157480314</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="18" UniqueID="{C0C8E8EB-EC17-4B22-A2A3-A0FDEB60B8D4}" Name="Dynamische verbindingslijn.18" NameU="Dynamic connector.18" Master="10">
+					<XForm>
+						<PinX Unit="MM">16.695374015748030</PinX>
+						<PinY Unit="MM">7.578740157480314</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="19" UniqueID="{BFBCD676-73E8-49E9-9381-5A80EA7FDA55}" Name="Dynamische verbindingslijn.19" NameU="Dynamic connector.19" Master="10">
+					<XForm>
+						<PinX Unit="MM">17.725147637795274</PinX>
+						<PinY Unit="MM">7.578740157480314</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="22" UniqueID="{3C1B88A6-E73E-4C01-A222-AB9E38A6D2EA}" Name="Dynamische verbindingslijn.22" NameU="Dynamic connector.22" Master="10">
+					<XForm>
+						<PinX Unit="MM">4.773622047244094</PinX>
+						<PinY Unit="MM">3.149606299212597</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="26" UniqueID="{095621CC-CD97-4C94-BA78-A0422776F5F1}" Name="Dynamische verbindingslijn.26" NameU="Dynamic connector.26" Master="10">
+					<XForm>
+						<PinX Unit="MM">4.773622047244094</PinX>
+						<PinY Unit="MM">3.149606299212599</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="30" UniqueID="{4E62C7FD-4BC3-40E4-8D3C-864B178D372E}" Name="Dynamische verbindingslijn.30" NameU="Dynamic connector.30" Master="10">
+					<XForm>
+						<PinX Unit="MM">12.983513779527554</PinX>
+						<PinY Unit="MM">3.149606299212596</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="32" UniqueID="{7E073C4B-2551-4820-9236-905C7DA50358}" Name="Dynamische verbindingslijn.32" NameU="Dynamic connector.32" Master="10">
+					<XForm>
+						<PinX Unit="MM">19.685039370078741</PinX>
+						<PinY Unit="MM">3.149606299212598</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="21" UniqueID="{07294CE0-67E6-4F69-ADD2-DB0741F30CE2}" Name="Dynamische verbindingslijn.21" NameU="Dynamic connector.21" Master="10">
+					<XForm>
+						<PinX Unit="MM">11.900836614173226</PinX>
+						<PinY Unit="MM">3.149606299212596</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="25" UniqueID="{BE095E33-1025-4864-AA75-6263CFADCED9}" Name="Dynamische verbindingslijn.25" NameU="Dynamic connector.25" Master="10">
+					<XForm>
+						<PinX Unit="MM">5.659448818897638</PinX>
+						<PinY Unit="MM">3.149606299212596</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="27" UniqueID="{B47FE249-2B65-439A-A998-A687E20FC462}" Name="Dynamische verbindingslijn.27" NameU="Dynamic connector.27" Master="10">
+					<XForm>
+						<PinX Unit="MM">6.545275590551182</PinX>
+						<PinY Unit="MM">3.149606299212596</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="31" UniqueID="{C53D3CF8-A584-4B6A-B826-3F35D4EF03E2}" Name="Dynamische verbindingslijn.31" NameU="Dynamic connector.31" Master="10">
+					<XForm>
+						<PinX Unit="MM">3.887795275590551</PinX>
+						<PinY Unit="MM">3.149606299212596</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="33" UniqueID="{1556E58D-A897-4444-9BB1-A6DE371BBC00}" Name="Dynamische verbindingslijn.33" NameU="Dynamic connector.33" Master="10">
+					<XForm>
+						<PinX Unit="MM">3.001968503937008</PinX>
+						<PinY Unit="MM">3.149606299212597</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="35" UniqueID="{EBFC0BB6-8EA4-4324-BA47-F36DCF762B82}" Name="Begin/einde.35" NameU="Start/End.35" Master="9">
+					<Text>Retour</Text>
+					<XForm>
+						<PinX Unit="MM">17.283464566929123</PinX>
+						<PinY Unit="MM">1.181102362204726</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.edutoyz.nl/retour.php</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.edutoyz.nl/retour.php</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Kosten</Label>
+					</Prop>
+					<Prop ID="2" Name="ProcessNumber" NameU="ProcessNumber">
+						<Value></Value>
+						<Label>Procesnummer</Label>
+					</Prop>
+					<Prop ID="3" Name="Owner" NameU="Owner">
+						<Value></Value>
+						<Label>Eigenaar</Label>
+					</Prop>
+					<Prop ID="4" Name="Function" NameU="Function">
+						<Value></Value>
+						<Label>Functie</Label>
+					</Prop>
+					<Prop ID="5" Name="StartDate" NameU="StartDate">
+						<Value></Value>
+						<Label>Begindatum</Label>
+					</Prop>
+					<Prop ID="6" Name="EndDate" NameU="EndDate">
+						<Value></Value>
+						<Label>Einddatum</Label>
+					</Prop>
+					<Prop ID="7" Name="Status" NameU="Status">
+						<Value></Value>
+						<Label>Status</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="37" UniqueID="{2C1B5459-ACE7-4CED-82D3-2330ABFCF630}" Name="Dynamische verbindingslijn.37" NameU="Dynamic connector.37" Master="10">
+					<XForm>
+						<PinX Unit="MM">17.406496062992119</PinX>
+						<PinY Unit="MM">3.149606299212599</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>
